@@ -10,3 +10,15 @@ header.img{
     object-fit: contain;
 }
 
+table{
+    column-width: 30%;
+}
+
+th{
+    background-color: #21a9e6;
+   color: white;
+}
+
+tr:nth-child(even) { 
+    background-color: #b1e5f2; 
+} 
