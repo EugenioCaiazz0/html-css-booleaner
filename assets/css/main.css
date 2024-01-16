@@ -1,19 +1,12 @@
-body{
-    text-align: left;
-    padding: 15px;
-}
+
 
 header{
     text-align: left;
-    background-image: url("assets/img/pattern.png");
+    background-image: url("../img/pattern.png");
+    background-size: 30%;
     background-color:#4da0ff ;
-    height: 180px;
+    height: 100px;
     width: 100%;
-}
-
-header.img{
-    max-width: 400px;
-    max-height: 100px;
 }
 
 main{
@@ -27,15 +20,16 @@ h1{
 
 h4{
     color: grey;
-    margin: 10px;
+    margin: 0px;
 }
 
 p{
-    margin: 10px;
+    margin-left :0;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 table{
-    column-width: 30%;
     border-collapse: collapse;
     width: 100%;
 }
@@ -50,7 +44,8 @@ tr:nth-child(even) {
 } 
 
 .Logo{
-    max-height: 50%;
+    width: 200px;
+    padding-top: 50px;
 }
 
 .pic-info{
@@ -68,6 +63,7 @@ tr:nth-child(even) {
 .articolo-consigliato img{
     height: fit-content;
     width: fit-content;
+    padding-top:5px ;
 }
 
 .articolo-consigliato h3{
