@@ -57,7 +57,7 @@ tr:nth-child(even) {
 .articolo-consigliato{
   position: relative;
   max-height: 8%;
-  display: block;
+  display: flex;
 }
 
 .articolo-consigliato img{
@@ -69,6 +69,8 @@ tr:nth-child(even) {
 .articolo-consigliato h3{
     color: white;
     position: absolute;
-    top: 8px;
-    left: 8px;
+    top: 10px;
+    left: 15px;
+    margin: 0;
+    font-size: x-large;
 }
